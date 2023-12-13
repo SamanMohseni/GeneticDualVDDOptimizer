@@ -17,13 +17,13 @@ The Dual VDD genetic algorithm is implemented in the provided C++ program, locat
 ## Usage
 
 1. **Input Netlist:** To run the algorithm, the user must first input the `netlist`, which details the circuit's topology. An example netlist can be found in the `netlist.txt` file, representing the digital circuit below (Image 1)
-2. 
-![image](https://github.com/SamanMohseni/GeneticDualVDDOptimizer/assets/51726090/18bf518a-3a4c-4fea-ae59-1daf9c370927)
-*Image 1. Sample circuit from [here](https://www.researchgate.net/publication/314197060_Critical_Gates_Identification_for_Fault-Tolerant_Design_in_Math_Circuits)*
 
-4. **Execution:** After executing the genetic algorithm across 1000 generations with a population size of 1000 individuals, the program will output the following results:
+2. **Execution:** After executing the genetic algorithm across 1000 generations with a population size of 1000 individuals, the program will output the following results:
    - Critical Delay (T): 4.8
    - Power Consumption (P): 31.9
    - Assigned Voltages: The list of assigned voltages to each gate is also printed. LVDD gates are highlighted in gray in Image 1 to illustrate algorithm output.
 
 Note: SDCVSL buffers are not shown in the figure but are considered in the algorithm.
+
+![image](https://github.com/SamanMohseni/GeneticDualVDDOptimizer/assets/51726090/18bf518a-3a4c-4fea-ae59-1daf9c370927)
+*Image 1. Sample circuit from [here](https://www.researchgate.net/publication/314197060_Critical_Gates_Identification_for_Fault-Tolerant_Design_in_Math_Circuits)*
