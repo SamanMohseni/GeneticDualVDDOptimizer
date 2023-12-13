@@ -5,7 +5,7 @@ A genetic algorithm to minimize the static power of a given combinational circui
 
 ## Overview
 
-The Dual VDD genetic algorithm is implemented in the provided C++ program, located in the `cpp.DualVDD` file. This algorithm is designed to optimize the power consumption and critical delay of a circuit by assigning different voltage levels to the gates within the circuit. The program makes use of a genetic algorithm approach to evolve the assignment of low voltage (LVDD) and high voltage (HVDD) to the gates, simulating the behavior of DNA in biological systems.
+The Dual VDD genetic algorithm is implemented in the provided C++ program, located in the `DualVDD.cpp` file. This algorithm is designed to optimize the power consumption and critical delay of a circuit by assigning different voltage levels to the gates within the circuit. The program makes use of a genetic algorithm approach to evolve the assignment of low voltage (LVDD) and high voltage (HVDD) to the gates, simulating the behavior of DNA in biological systems.
 
 ## Features
 
