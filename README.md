@@ -1,5 +1,5 @@
 # Genetic Algorithm Dual VDD Optimizer
-This project is part of the **Low Power Design** course.
+This project was originally conducted as part of the **Spring 2021 Low Power Design** course.
 
 A genetic algorithm to minimize the static power of a given combinational circuit netlist by assigning gates the proper VDD levels (Dual VDD approach) with the maximum delay as the constraint.
 
@@ -27,3 +27,6 @@ Note: SDCVSL buffers are not shown in the figure but are considered in the algor
 
 ![image](https://github.com/SamanMohseni/GeneticDualVDDOptimizer/assets/51726090/18bf518a-3a4c-4fea-ae59-1daf9c370927)
 *Image 1. Sample circuit from [here](https://www.researchgate.net/publication/314197060_Critical_Gates_Identification_for_Fault-Tolerant_Design_in_Math_Circuits)*
+
+## Acknowledgments
+Course instructor: [Dr. Alireza Ejlali](https://scholar.google.com/citations?user=H7G8s68AAAAJ&hl=en)
